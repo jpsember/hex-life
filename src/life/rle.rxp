@@ -1,0 +1,12 @@
+ws: ( [\$00-\$20^\$0a^\$0d]+   \
+     | \$0a | \$0d \
+    )+
+    // DFA definition for the life program
+//
+
+comment:  \#[\$00-\$7f^\$0a^\$0d]*
+header: [xX]\$20*=[\$00-\$7f^\$0a^\$0d]+
+runcount: [0-9]+
+tag: [bBoO]
+eoln: \$24
+eofile: \![\$00-\$7f]*

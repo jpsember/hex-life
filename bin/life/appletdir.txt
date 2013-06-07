@@ -1,0 +1,16 @@
+acorn.lif
+ak47.lif
+aqua20.lif
+barge.lif
+bi-gun.lif
+breeder.lif
+coerake1.lif
+coerake2.lif
+doublex.lif
+makefuse.lif
+max.lif
+memory.lif
+mirage.lif
+oscsp7-9.lif
+tubtracks.lif
+turingmachine.rle

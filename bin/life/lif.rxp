@@ -1,0 +1,16 @@
+// DFA definition for the life program
+//
+
+ws: ( [\$00-\$20^\$0a^\$0d]+   \
+     | \#Life [\$00-\$7f^\$0a^\$0d]*   \
+     |  \$0a  \
+     |  \$0d   \
+    )+
+comment:  \#D [\$00-\$7f^\$0a^\$0d]* 
+rules: \#R
+defrules: \#N
+//rulesep: \/
+rulespec: [0-9]+\/[0-9]+
+blockspec: \#P
+intval: \-?[0-9]+
+blockdata: [\*\.]+[\*\.\$0a\$0d]+
